@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2874f0</color>
+    <color name="colorPrimaryDark">#145acc</color>
+    <color name="colorAccent">#2874f0</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="onecart_main">#DB1F26</color>
+    <color name="green">#00a33c</color>
+
+    <color name="amazon">#232F3E</color>
+    <color name="flipkart">#2874f0</color>
+    <color name="snapdeal">#E40046</color>
+    <color name="myntra">#E92A5B</color>
+    <color name="paytm">#EF4E28</color>
+    <color name="ebay">#00509D</color>
+    <color name="limeroad">#000000</color>
+    <color name="jabong">#F68B23</color>
+    <color name="voonik">#424242</color>
+    <color name="shopclues">#18a8af</color>
+    <color name="shopperstop">#000000</color>
+    <color name="tatacliq">#A9133D</color>
+    <color name="yepme">#F66F0C</color>
+    <color name="zivamme">#EB8181</color>
+    <color name="infibeam">#F37020</color>
+    <color name="firstcry">#eacc27</color>
+    <color name="homeshop18">#ED1B24</color>
+    <color name="koovs">#000000</color>
+    <color name="abof">#C9048F</color>
+    <color name="ajio">#49637A</color>
+
+    <color name="dialog_intro_bg">#77000000</color>
+    <color name="dialog_intro_main_bg">#bb000000</color>
+    <color name="intro_bg1">#000000</color>
+    <color name="intro_bg2">#7c4dff</color>
+    <color name="intro_bg3">#448aff</color>
+    <color name="intro_bg4">#7c4dff</color>
+    <color name="whatsapp">#389f6c</color>
+</resources>

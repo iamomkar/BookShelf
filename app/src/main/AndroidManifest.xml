@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.creativeminds.omkar.bookshelf">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:label="Register New User"
+            android:parentActivityName=".activities.LoginActivity" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".activities.AddNewActivity"
+            android:label="Add New Book"
+            android:parentActivityName=".activities.MainActivity" />
+
+        <activity
+            android:name=".activities.DetailsActivity"
+            android:label="Book Details"
+            android:parentActivityName=".activities.MainActivity" />
+
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:label="Your Profile"
+            android:parentActivityName=".activities.MainActivity" />
+
+        <activity
+            android:name=".activities.MyBooksActivity"
+            android:label="Your Books"
+            android:parentActivityName=".activities.MainActivity" />
+
+        <activity
+            android:name=".activities.UserBookDeatailsActivity"
+            android:label="Your Books"
+            android:parentActivityName=".activities.MyBooksActivity" />
+
+        <activity
+            android:name=".activities.UpdateBookActivity"
+            android:label="Update Book Details"
+            android:parentActivityName=".activities.MyBooksActivity" />
+
+        <activity
+            android:name=".activities.SearchResultsActivity"
+            android:label="Search Results"
+            android:parentActivityName=".activities.MainActivity" />
+
+
+        <activity
+            android:name=".activities.UpdateProfileActivity"
+            android:label="Update Profile"
+            android:parentActivityName=".activities.MainActivity" />
+    </application>
+
+</manifest>
